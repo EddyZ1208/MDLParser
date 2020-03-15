@@ -4,7 +4,8 @@
 a parser of the Simulink MDL file
 
 #### 软件架构
-dao: 在这里面我放了一个
+dao: 在这里面我放了一个MDLObject类，这是对应于Simulink 的MDL文件结构的类
+impl:这里面就是MDLParser类，对mdl文件进行处理，初始化MDLObject对象的地方
 
 
 #### 安装教程
